@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.extension.id.komikcast
+package eu.kanade.tachiyomi.extension.id.voratoon
 
 import eu.kanade.tachiyomi.network.GET
 import eu.kanade.tachiyomi.source.model.FilterList
@@ -17,9 +17,9 @@ import okhttp3.Request
 import okhttp3.Response
 
 @Source
-abstract class KomikCast : HttpSource() {
+abstract class VoraToon : HttpSource() {
 
-    private val apiUrl = "https://be.komikcast.cc"
+    private val apiUrl = "https://v1.voratoon.com/"
     override val supportsLatest = true
 
     override val client: OkHttpClient = network.client.newBuilder()

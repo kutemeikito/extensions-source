@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.extension.id.komikcast
+package eu.kanade.tachiyomi.extension.id.voratoon
 
 import eu.kanade.tachiyomi.source.model.Page
 import eu.kanade.tachiyomi.source.model.SChapter
